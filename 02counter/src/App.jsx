@@ -12,14 +12,14 @@ function App() {
     //  counter = counter + 1
     setCounter(counter + 1);
     // console.log("Clicked", counter)
-    if (counter == 100) setCounter(counter); // It adjusts that the counter value shold not be greater than 100.
+    if (counter == 100) setCounter(counter); // It adjusts that the counter value should not be greater than 100.
   };
 
   const removeValue = () => {
     //  counter = counter - 1
     setCounter(counter - 1);
     // console.log("Clicked", counter)
-    if (counter < 1) setCounter(counter); // It adjusts that the counter value shold not be negative.
+    if (counter < 1) setCounter(counter); // It adjusts that the counter value should not be negative.
   };
 
   //   const addValue = () => {
