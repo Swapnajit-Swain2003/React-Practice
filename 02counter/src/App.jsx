@@ -11,6 +11,11 @@ function App() {
   const addValue = () => {
     //  counter = counter + 1
     setCounter(counter + 1);
+    // setCounter(prevCounter => prevCounter + 1);
+    // setCounter(prevCounter => prevCounter + 1);
+    // setCounter(prevCounter => prevCounter + 1);
+    // setCounter(prevCounter => prevCounter + 1);
+    // "When setCounter(prevCounter => prevCounter + 1) is used, it increases the value by 1 each time it is called."
     // console.log("Clicked", counter)
     if (counter == 100) setCounter(counter); // It adjusts that the counter value should not be greater than 100.
   };
